@@ -1,0 +1,10 @@
+prometheus:
+  retention: 30d
+  storage: 50Gi
+  
+grafana:
+  adminPassword: admin
+  
+loki:
+  retention: 14d
+  storage: 100Gi
